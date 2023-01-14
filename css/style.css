@@ -1,0 +1,291 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body style */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------------------------
+header style
+-------------------------- */
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 25px;
+    padding-top: 50px;
+    
+}
+nav >ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+   
+}
+
+/* header-section */
+
+.header-tittle{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 116px;
+    color: #131313;
+    margin-bottom: 40px;
+    
+}
+.header-details{
+    font-weight: 400;
+    text-align: center;
+    color: #727272;
+    /* max-width: 800px;
+    width: 100%; */
+    
+    margin-bottom: 40px;   
+}
+
+.button-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.common-btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    
+    padding: 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+}
+.img-header img{
+    margin-left: 100px;
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    padding: 30px;
+}
+
+
+/* 
+----------------------------
+main 
+---------------------------- */
+main{
+
+}
+
+.main-theme{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    max-width: 1300px;
+    padding-left: 100px;
+    
+    
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+      
+}
+.main-theme .tittle{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#color-1{
+    color: #131313;
+
+
+}
+#color-2{
+    color: #FF900E;
+
+}
+.main-theme .details{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* extra */
+.extra-info{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 50px;
+    margin-right: 100px;
+}
+.random{
+    display: flex;
+    
+}
+.line{
+    
+    background-color: #FF900E;
+    width: 5px;
+    height: 106px; 
+    margin-right: 10px;  
+}
+.info-tittle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.info-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.extra-1,.extra-2,.extra-3,.extra-4 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.extra-1,.extra-2,.extra-3,.extra-4{
+    border: 1px solid skyblue;
+    padding: 20px;
+    background: #FFFFFF;
+     box-shadow: 200px 45px 130px rgba(23, 189, 125, 0.9); 
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.head{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.img-extra img{
+
+    height: 800px;
+}
+.btn h2{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.btn p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    
+}
+.btn{
+    background: #FF900E;
+border-radius: 8px;
+padding: 30px;
+border: 0;
+
+}
+
+
+/* --------------------
+others
+-------------------- */
+.others h1{
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 100px;
+}
+.others .info{
+    color: #727272;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+
+}
+.box-1,.box-2,.box-3,.box-4{
+    padding: 50px;
+    border: 2px solid rgb(94, 17, 86);
+}
+
+/* ------------------------------
+.sponsors
+------------------------------ */
+
+
+.sponsors h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+.sponsors p{
+    color: #727272;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: bisque;
+    width: 80%;
+    margin-left: 100px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* ----------------------
+ mobile-responsive 
+----------------------- */
+
+
