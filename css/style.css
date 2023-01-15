@@ -221,6 +221,14 @@ padding: 30px;
 border: 0;
 
 }
+.img-extra{
+    position: relative;
+}
+.img-extra .btn{
+    position: absolute;
+    top: 91%;
+    left: -5%;
+}
 
 
 /* --------------------
@@ -538,6 +546,7 @@ footer{
 
     }
 }
+
 
 
 
